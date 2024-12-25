@@ -1,5 +1,5 @@
-const prompt = require("Prompt-sync")()
-let integer = (prompt("Enter an integer:"))
+const prompt = require("prompt-sync")();
+// let integer = (prompt("Enter an integer:"))
 
 let a;
 let b = 6
@@ -10,8 +10,8 @@ console.log("The value of 'a' is: " + a)
 
 /* This program performs a single payroll calculation*/
 
-let number = (prompt("Enter an integer:"))
-let number_two = (prompt("Enter another number:"))
+let number = parseInt(prompt("Enter an integer:"))
+let number_two = parseInt(prompt("Enter another number:"))
 
 let square_number, square_number_two;
 square_number = number * number
@@ -95,10 +95,7 @@ console.log("The area of the circle is: " + pi * radius * radius)
 
 
 
-let weight_in_pounds = (prompt("Enter your weight in pounds:"))
-let height_in_inches = (prompt("Enter your height in inches:"))
 
-console.log("Your body mass index: " + weight_in_pounds * 703 / height_in_inches * height_in_inches )
 
 let world_population = 8000000000
 let annual_growth_rate = 0.0091
