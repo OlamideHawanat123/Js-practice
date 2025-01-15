@@ -26,7 +26,7 @@ console.log("The square of second number is: " + square_number_two)
 console.log("The sum of the two squares is: " + sum)
 console.log("The difference between the two squares is: " + difference)
 
-let integer_one = (prompt("Enter an integer:"))
+let integer_one = parseInt(prompt("Enter an integer:"))
 let square_integer_one = integer_one * integer_one
 let sum_integer_one_and_squared_integer_one = integer_one + square_integer_one
 
@@ -104,7 +104,7 @@ console.log("The annual growth rate is: " + annual_growth_rate)
 
 console.log("The estimated world population after one year is: " + world_population * annual_growth_rate)
 console.log("The estimated world population after two year is: " + world_population * annual_growth_rate * 2)
-console.log("The estimated world population after three year is: " + world_population * annual_growth_rate * 3)
+console.log("The estimat5ed world population after three year is: " + world_population * annual_growth_rate * 3)
 
 console.log("The estimated world population after four year is: " + world_population * annual_growth_rate * 4)
 console.log("The estimated world population after five year is: " + world_population * annual_growth_rate * 5)
