@@ -1,0 +1,123 @@
+function evenIndex(number){
+    let newArray = []
+    let index = 0;
+    for(let count = 0; count < number.length; count+=2){
+        newArray[index++] = number[count];
+    }
+    return newArray;  
+
+    }
+
+function oddIndex(number){
+        let newArray = []
+        let index = 0;
+        for(let count = 1; count < number.length; count+=2){
+            newArray[index++] = number[count];
+        }
+        return newArray;
+    
+        }
+
+function sumEvenIndex(number){
+            let newArray = []
+            let sum = 0;
+            let index = 0;
+            for(let count = 0; count < number.length; count+=2){
+                newArray[index++] = number[count];
+            }
+            for(let count = 0; count < newArray.length; count++){
+                sum += newArray[count];
+            }
+
+            return sum;
+        }
+
+function sumOddIndex(number){
+            let newArray = [];
+            let sum = 0;
+            let index = 0;
+            for(let count = 1; count < number.length; count+=2){
+                newArray[index++] = number[count];
+            }
+        
+        for(let count = 0; count < newArray.length; count++){
+            sum += newArray[count];
+        }
+            return sum;
+    }
+
+    function evenIndexMinimum(number){
+        let newArray = []
+        let index = 0;
+        for(let count = 0; count < number.length; count+=2){
+            newArray[index++] = number[count];
+        }
+        let minimum = newArray[0];
+        for(let count = 0; count < newArray.length; count++){
+            if(newArray[count] < minimum){
+                minimum = newArray[count];
+            }
+        }
+        return minimum;
+    }
+    
+    function oddIndexMinimum(number){
+        let newArray = []
+        let index = 0;
+        for(let count = 1; count < number.length; count+=2){
+           newArray[index++] = number[count];
+    }
+    let minimum = newArray[0];
+    for(let count = 0; count < newArray.length; count++){
+        if(newArray[count] < minimum){
+            minimum = newArray[count];
+        }
+    }
+    return minimum
+}
+
+function evenIndexMaximum(number){
+    let newArray = []
+    let index = 0;
+    for(let count = 0; count < number.length; count+=2){
+        newArray[index++] = number[count];
+    }
+    let maximum = newArray[0];
+    for(let count = 0; count < newArray.length; count++){
+        if(newArray[count] > maximum){
+            maximum = newArray[count];
+        }
+    }
+    return maximum;
+}
+
+function oddIndexMaximum(number){
+    let newArray = []
+    let index = 0;
+    for(let count = 1; count < number.length; count+=2){
+        newArray[index++] = number[count];
+}
+let maximum = newArray[0];
+for(let count = 0; count < newArray.length; count++){
+    if(newArray[count] < maximum){
+        maximum = newArray[count];
+    }
+}
+return maximum;
+}
+
+function swapEvenElements(number){
+    let temp = [];
+    let newArray = [];
+    let index = 0;
+    for(let count = 0; count < number.length; count+=2){
+        for(let counter = 1; counter < number.length; counter+=2){
+            temp[index++] = number[count]
+         
+            number[count] = number[counter]
+            newArray[index++] = number[counter], temp;
+
+        }
+    }
+    return newArray;
+}

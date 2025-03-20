@@ -1,6 +1,26 @@
 {
   "dependencies": {
+    "jest": "^29.7.0",
     "prompt": "^1.3.0",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "name": "javascript",
+  "version": "1.0.0",
+  "main": "ArrayMAximum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlamideHawanat123/Js-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/OlamideHawanat123/Js-practice/issues"
+  },
+  "homepage": "https://github.com/OlamideHawanat123/Js-practice#readme",
+  "description": ""
 }

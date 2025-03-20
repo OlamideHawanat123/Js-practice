@@ -6,7 +6,9 @@ const prompt = require ("prompt-sync")()
 	let overall = addTwoNumbers(y,z)
 	let subtraction = subtractTwoNumbers(y, z)
 
-	let just = {1, 3}
+	let just = []
+	just[0] = 1
+	just[1] = 2
 
 	console.log(just)
 

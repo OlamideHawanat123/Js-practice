@@ -6,7 +6,7 @@ for(let number = 1; number < 11; number++){
 
    for(let even = 0; even <= 10; even+=2){
     console.log("The even numbers are: " + even)
-   }
+   } 
 
    for(let odd = 1; odd < 11; odd++){
     if(odd % 2 != 0){
@@ -21,5 +21,3 @@ for(let number = 1; number < 11; number++){
     }
    }
 
-
-   
