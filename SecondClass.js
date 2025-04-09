@@ -129,3 +129,6 @@ function subtractTwoNumbers(numberOne, numberTwo){
 
 console.log(calculate(firstNumber, secondNumber, addTwoNumbers));
 console.log(calculate(firstNumber, secondNumber, subtractTwoNumbers));
+
+
+
